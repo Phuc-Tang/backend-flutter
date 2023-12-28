@@ -8,7 +8,7 @@ const bookingSchema = new Schema(
       ref: "User",
     },
     fullname: { type: String, required: true },
-    room: { type: Number, required: true },
+    room: { type: String, required: true },
     phone: { type: Number, required: true },
     email: { type: String, required: true },
     guest: { type: Number, required: true },

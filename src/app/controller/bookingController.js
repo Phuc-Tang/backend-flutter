@@ -28,6 +28,7 @@ class BookingController {
       } = req.body;
       const hotelId = req.params.hotelId;
       const userId = req.body.user_id || req.user.userId;
+      console.log(userId);
 
       const hotel = await Hotels.findById(hotelId);
       if (!hotel) {
