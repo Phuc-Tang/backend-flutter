@@ -12,7 +12,7 @@ db.connect();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello, world!!!!");
+  res.send("Hello, world!!!");
 });
 
 // Routes init
